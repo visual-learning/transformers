@@ -26,6 +26,8 @@ This includes utlizing the class token. This should be included at the beginning
 
 Complete the TODO in the `loss` function in the file `trainer.py` 
 
+Create a directory for saving model checkpoints using `mkdir checkpoints`.
+
 After this, train the model on CIFAR10 using run.py. Include the train and test accurary, and the training loss in your hw pdf submission. Note that on datasets of this small size, training a ViT from scratch as we're done here does not yield better results than using a convolutional network. 
 
 
